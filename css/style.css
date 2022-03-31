@@ -1,0 +1,44 @@
+
+body{
+	background-image: url(../img/buscar.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.bg-gris{
+	background-color: rgba(161, 162, 166, 0.7);
+}
+
+.bg-degrade{
+	background: linear-gradient(to top, rgb(169, 217, 208), rgba(2, 73, 89, 1.0));
+}
+
+
+
+footer{
+	background: linear-gradient(to bottom,rgb(169, 217, 208), rgb(13, 13, 13));
+	overflow: auto;
+	height: 10vh;
+}
+
+.pie{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.iconosRedes img{
+	height: 2.5rem;
+}
+
+.iconosRedes img:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+}
+
+.height{
+	height: 30vh;
+}
